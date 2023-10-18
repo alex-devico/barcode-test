@@ -1,0 +1,10 @@
+node_modules
+dist/
+.expo/
+.yarn/
+tests/
+storybook/
+assets/
+
+# There is no another possibility to configure i18n. That's why it was decided to ingore the file
+app/i18n/index.ts

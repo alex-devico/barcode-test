@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "experimentalDecorators": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ui/*": ["./src/ui/*"],
+      "@theme/*": ["./src/theme/*"],
+      "@store": ["./src/store/index"],
+      "@constants/*": ["./src/constants/*"],
+      "@api/*": ["./src/api/*"],
+      "@app/*": ["./src/app/*"],
+      "@config": ["./src/config/index"],
+      "@types": ["./src/types/index"],
+      "@utils": ["./src/utils/index"]
+    }
+  },
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "exclude": ["__tests__/**/*-test.ts"]
+}
